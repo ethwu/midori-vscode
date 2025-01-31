@@ -1,16 +1,16 @@
 {
-	"name": "nu-disco",
-	"displayName": "Nu Disco Theme",
-	"description": "A VS Code theme that boogies.",
-	"publisher": "dbanksdesign",
+	"name": "greenwasher",
+	"displayName": "Greenwasher",
+	"description": "Semantic highlighting theme for VS Code.",
+	"publisher": "",
 	"license": "MIT",
-	"version": "1.0.6",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme"
+		"url": "https://github.com/ethwu/midori-vscode"
 	},
 	"bugs": {
-		"url": "https://github.com/dbanksdesign/nu-disco-vscode-theme/issues"
+		"url": "https://github.com/ethwu/midori-vscode/issues"
 	},
 	"engines": {
 		"vscode": "^1.38.0"
@@ -31,7 +31,6 @@
 		"Themes"
 	],
 	"keywords": [
-		"Nu Disco",
 		"Dark Theme",
 		"Light Theme",
 		"Style Dictionary"
@@ -39,25 +38,19 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Nu Disco Dark",
+				"label": "Midori Dark",
 				"uiTheme": "vs-dark",
-				"path": "./build/nu-disco-dark.color-theme.json"
+				"path": "./build/midori-dark.color-theme.json"
 			},
 			{
-				"label": "Nu Disco Light",
+				"label": "Midori Light",
 				"uiTheme": "vs",
-				"path": "./build/nu-disco-light.color-theme.json"
+				"path": "./build/midori-light.color-theme.json"
 			}
 		]
 	},
-	"dependencies": {},
 	"devDependencies": {
 		"chokidar-cli": "^2.0.0",
 		"style-dictionary": "^2.8.2"
-	},
-	"__metadata": {
-		"id": "aebdc3e6-29b0-44bc-8c00-5a13c7c3164d",
-		"publisherDisplayName": "dbanksdesign",
-		"publisherId": "5602ea9d-f0b9-464f-84d7-7e88fa1be60c"
 	}
 }

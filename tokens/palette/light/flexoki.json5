@@ -1,0 +1,32 @@
+{
+    "palette": {
+        "flexoki": {
+            // Base colors.
+            "tx": "{palette.flexoki.base.black}",   // Primary text
+            "tx-2": "{palette.flexoki.base.600}",   // Muted text       // Punctuation, operators
+            "tx-3": "{palette.flexoki.base.300}",   // Faint text       // Comments
+            "ui-3": "{palette.flexoki.base.200}",   // Active borders
+            "ui-2": "{palette.flexoki.base.150}",   // Hovered borders
+            "ui": "{palette.flexoki.base.100}",     // Borders
+            "bg-2": "{palette.flexoki.base.50}",    // Secondary background
+            "bg": "{palette.flexoki.base.paper}",   // Main background
+            // Accents.
+            "re": "{palette.flexoki.accent.red.600}",       // Error text           // Invalid, imports
+            "or": "{palette.flexoki.accent.orange.600}",    // Warning text         // Functions
+            "ye": "{palette.flexoki.accent.yellow.600}",    //                      // Constants
+            "gr": "{palette.flexoki.accent.green.600}",     // Success              // Constants
+            "cy": "{palette.flexoki.accent.cyan.600}",      // Links, active states // Strings
+            "bl": "{palette.flexoki.accent.blue.600}",      //                      // Variables, attributes
+            "pu": "{palette.flexoki.accent.purple.600}",    //                      // Numbers
+            "ma": "{palette.flexoki.accent.magenta.600}",   //                      // Language features
+            "re-2": "{palette.flexoki.accent.red.400}",
+            "or-2": "{palette.flexoki.accent.orange.400}",
+            "ye-2": "{palette.flexoki.accent.yellow.400}",
+            "gr-2": "{palette.flexoki.accent.green.400}",
+            "cy-2": "{palette.flexoki.accent.cyan.400}",
+            "bl-2": "{palette.flexoki.accent.blue.400}",
+            "pu-2": "{palette.flexoki.accent.purple.400}",
+            "ma-2": "{palette.flexoki.accent.magenta.400}",
+        }
+    }
+}

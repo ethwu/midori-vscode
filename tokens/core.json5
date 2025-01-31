@@ -1,79 +1,71 @@
 {
-  "color": {
-    "core": {
-      "grey": {
-        "100": { "value": "#0C001F" },
-        "90": { "value": "#180D2A" },
-        "80": { "value": "#231934" },
-        "60": { "value": "#322941" },
-        "40": { "value": "#4E465B" },
-        "20": { "value": "#E7E4E7" },
-        "10": { "value": "#ECE9EC" },
-        "5": { "value": "#F8F7F8" }
+  color: {
+    core: {
+      black: "{palette.flexoki.base.black}",
+      white: "{palette.flexoki.base.paper}",
+
+      gray: {
+        "8": "{palette.flexoki.base.800}",
+        "6": "{palette.flexoki.base.600}",
+        "4": "{palette.flexoki.base.400}",
+        "2": "{palette.flexoki.base.200}",
       },
-      
-      "red": {
-        "darker": { "value": "#BD0000" },
-        "dark": { "value": "#E62424" },
-        "light": { "value": "#FF7878" },
-        "lighter": { "value": "#FFB8B8" },
+
+      red: {
+        "8": "{palette.flexoki.accent.red.800}",
+        "6": "{palette.flexoki.accent.red.600}",
+        "4": "{palette.flexoki.accent.red.400}",
+        "2": "{palette.flexoki.accent.red.200}",
       },
-      
-      "orange": {
-        "darker": { "value": "#D16100" },
-        "dark": { "value": "#F27C18" },
-        "light": { "value": "#FFB271" },
-        "lighter": { "value": "#FFDDC0" },
+
+      orange: {
+        "8": "{palette.flexoki.accent.orange.800}",
+        "6": "{palette.flexoki.accent.orange.600}",
+        "4": "{palette.flexoki.accent.orange.400}",
+        "2": "{palette.flexoki.accent.orange.200}",
       },
-      
-      "yellow": {
-        "darker": { "value": "#D0BF00" },
-        "dark": { "value": "#EEDA00" },
-        "light": { "value": "#FFF373" },
-        "lighter": { "value": "#FFF9BB" },
+
+      yellow: {
+        "8": "{palette.flexoki.accent.orange.800}",
+        "6": "{palette.flexoki.accent.orange.600}",
+        "4": "{palette.flexoki.accent.orange.400}",
+        "2": "{palette.flexoki.accent.orange.200}",
       },
-      
-      "lime": {
-        "darker": { "value": "#669900" },
-        "dark": { "value": "#7EBD00" },
-        "light": { "value": "#CBF37C" },
-        "lighter": { "value": "#E8FFBA" },
+
+      green: {
+        "8": "{palette.flexoki.accent.green.800}",
+        "6": "{palette.flexoki.accent.green.600}",
+        "4": "{palette.flexoki.accent.green.400}",
+        "2": "{palette.flexoki.accent.green.200}",
       },
-      
-      "green": {
-        "darker": { "value": "#009E35" },
-        "dark": { "value": "#06B741" },
-        "light": { "value": "#67E591" },
-        "lighter": { "value": "#AEECC3" },
+
+      cyan: {
+        "8": "{palette.flexoki.accent.cyan.800}",
+        "6": "{palette.flexoki.accent.cyan.600}",
+        "4": "{palette.flexoki.accent.cyan.400}",
+        "2": "{palette.flexoki.accent.cyan.200}",
       },
-      
-      "teal": {
-        "darker": { "value": "#00837F" },
-        "dark": { "value": "#0CABA6" },
-        "light": { "value": "#52E7E1" },
-        "lighter": { "value": "#C4FFFD" },
+
+      blue: {
+        "8": "{palette.flexoki.accent.blue.800}",
+        "6": "{palette.flexoki.accent.blue.600}",
+        "4": "{palette.flexoki.accent.blue.400}",
+        "2": "{palette.flexoki.accent.blue.200}",
       },
-      
-      "blue": {
-        "darker": { "value": "#005C8A" },
-        "dark": { "value": "#0081C2" },
-        "light": { "value": "#6BB5FF" },
-        "lighter": { "value": "#C3E7F9" },
+
+      purple: {
+        "8": "{palette.flexoki.accent.purple.800}",
+        "6": "{palette.flexoki.accent.purple.600}",
+        "4": "{palette.flexoki.accent.purple.400}",
+        "2": "{palette.flexoki.accent.purple.200}",
       },
-      
-      "purple": {
-        "darker": { "value": "#280E54" },
-        "dark": { "value": "#4B1E97" },
-        "light": { "value": "#AD7DFF" },
-        "lighter": { "value": "#D5BDFF" },
+
+      magenta: {
+        "8": "{palette.flexoki.accent.magenta.800}",
+        "6": "{palette.flexoki.accent.magenta.600}",
+        "4": "{palette.flexoki.accent.magenta.400}",
+        "2": "{palette.flexoki.accent.magenta.200}",
       },
-      
-      "pink": {
-        "darker": { "value": "#B6034B" },
-        "dark": { "value": "#E62472" },
-        "light": { "value": "#FF82B4" },
-        "lighter": { "value": "#FFCFE3" },
-      },
-    }
-  }
+    },
+  },
 }

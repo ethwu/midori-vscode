@@ -73,8 +73,12 @@ StyleDictionary.registerFormat({
     // Style Dictionary will find all files defined in source and do a deep merge
     // on them. 
     source: [
-      // This is the core color palette
+      // Potential color palettes.
+      `tokens/palette/*.json5`,
+      `tokens/palette/${themeType}/*.json5`,
+      // This is the core color palette for Nu Disco
       `tokens/core.json5`,
+      `tokens/color.json5`,
       // These directories are where we keep theme specific tokens
       `tokens/${themeType}/*.json5`,
       // These are like component tokens, they reference theme type tokens
@@ -93,7 +97,7 @@ StyleDictionary.registerFormat({
         files: [{
           // The path the file will be created at. Make sure this matches
           // the file paths defined in the package.json
-          destination: `nu-disco-${themeType}.color-theme.json`,
+          destination: `midori-${themeType}.color-theme.json`,
           // The name of the custom format defined above
           format: `vsCodeTheme`
         }]
