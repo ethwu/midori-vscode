@@ -1,0 +1,60 @@
+{
+  "syntax": {
+    "punctuation": {
+      "accessor": {
+        value: "{color.core.gray.4}"
+      },
+      "definition": {
+        "array": {
+          "value": "{color.core.gray.4}"
+        },
+        "block": {
+          "value": "{color.core.gray.4}"
+        },
+        "dictionary": {
+          "value": "{color.core.gray.4}"
+        },
+        "heading": { "value": "{color.core.black}" },
+        "list": { "value": "{color.core.gray.4}" },
+        "parameters": {
+          "value": "{color.core.gray.4}"
+        },
+        "quote": {},
+        "string": {
+          "*": { "value": "{color.core.gray.4}" },
+          "begin": {},
+          "end": {}
+        },
+        "tag": {
+          "*": { "value": "{color.core.gray.4}" }
+        },
+        "typeparameters": { "value": "{color.core.gray.4}" },
+        
+        // ${} in string templates in JS
+        "template-expression": {
+          "*": { "value": "{color.core.gray.4}" },
+          "begin": {},
+          "end": {}
+        },
+        "variable": {}
+      },
+      
+      "section": {
+        "*": { "value": "{color.core.gray.4}" },
+        "interpolation": {
+          "begin": {},
+          "end": {}
+        }
+      },
+      "separator": {
+        "*": { "value": "{color.core.gray.4}" },
+        "array": { /* commas between array items */ },
+        "continuation": {},
+        "dictionary": { /* commas between object/dictionary attributes */ }
+      },
+      "terminator": { /* Semicolons in JS */
+        "*": { "value": "{color.core.gray.4}" },
+      }
+    },
+  },
+}

@@ -1,0 +1,44 @@
+// Variables are red.
+// Base color is red 8.
+// Parameters are red 6.
+// Properties are red 4.
+// This, self, and super are special properties, so bold red 8.
+//
+// Constants are orange.
+{
+  syntax: {
+    variable: {
+      "*": { value: "{color.core.red.8}" },
+      language: {
+        super: {
+          value: "{color.core.red.8}",
+          fontStyle: "bold",
+        },
+        this: {
+          value: "{color.core.red.8}",
+          fontStyle: "bold",
+        },
+      },
+      other: {
+        "*": { value: "{color.core.red.8}" },
+        constant: {
+          "*": { value: "{color.core.orange.8}" },
+        },
+        readwrite: {
+          alias: {
+            "*": { value: "{color.unknown}" },
+          },
+        },
+      },
+    },
+    parameter: { value: "{color.core.red.6}" },
+  },
+  semantic: {
+    global: { fontStyle: "underline" },
+    property: { value: "{color.core.red.4}" },
+    selfParameter: {
+      value: "{color.core.red.8}",
+      fontStyle: "bold",
+    },
+  },
+}

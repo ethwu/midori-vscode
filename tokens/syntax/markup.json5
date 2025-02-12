@@ -1,0 +1,34 @@
+// Things in markup/markdown languages. Applies to markdown files as well as
+// documentation comments if you include markdown syntax.
+{
+  syntax: {
+    markup: {
+      bold: {
+        value: "{color.foreground.primary}",
+        fontStyle: "bold",
+      },
+      italic: {
+        value: "{color.foreground.primary}",
+        fontStyle: "italic",
+      },
+      fenced_code: {
+        value: "{color.foreground.primary}",
+      },
+      heading: {
+        value: "{color.foreground.primary}",
+        fontStyle: "bold",
+      },
+      quote: {
+        value: "{color.foreground.secondary}",
+        fontStyle: "italic",
+      },
+      underline: {
+        "*": {
+          value: "{color.foreground.primary}",
+          fontStyle: "underline",
+        },
+        link: { value: "{color.core.cyan.6}" },
+      },
+    },
+  },
+}

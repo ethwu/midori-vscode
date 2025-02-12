@@ -1,0 +1,14 @@
+{
+  syntax: {
+    string: {
+      "*": { value: "{color.core.green.6}" },
+      quoted: {
+        single: { value: "{color.core.blue.6}" },
+        double: { value: "{color.core.green.6}" },
+        triple: { value: "{color.core.green.4}" },
+        other: { value: "{color.core.blue.4}" },
+      },
+      unquoted: { value: "{color.core.magenta.6}" },
+    },
+  },
+}

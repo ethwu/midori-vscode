@@ -1,0 +1,11 @@
+{
+  // Text colors in the file explorer for git statuses
+  gitDecoration: {
+    addedResourceForeground: { value: "{color.added}" },
+    modifiedResourceForeground: { value: "{color.modified}" },
+    deletedResourceForeground: { value: "{color.removed}" },
+    untrackedResourceForeground: { value: "{color.untracked}" },
+    ignoredResourceForeground: { value: "{color.ignored}" },
+    conflictingResourceForeground: { value: "{color.conflicting}" },
+  },
+}

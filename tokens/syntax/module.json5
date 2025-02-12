@@ -1,0 +1,16 @@
+{
+  syntax: {
+    storage: {
+      modifier: {
+        import: {
+          "*": { value: "{color.core.orange.6}" },
+        },
+      },
+    },
+  },
+  semantic: {
+    module: {
+      "*": { value: "{color.core.orange.6}", fontStyle: "italic" },
+    },
+  },
+}

@@ -1,0 +1,13 @@
+{
+  syntax: {
+    keyword: {
+      "*": {
+        value: "{color.core.black}",
+        fontStyle: "bold",
+      },
+      control: { ternary: { value: "{color.core.gray.6}", fontStyle: "" } },
+      operator: { value: "{color.core.gray.6}", fontStyle: "" },
+    },
+  },
+  semantic: {},
+}

@@ -1,0 +1,95 @@
+{
+  editor: {
+    background: { value: "{color.background.8}" },
+    foreground: { value: "{color.foreground.8}" },
+
+    // Editor colors with "highlight" in the name refer to times when parts
+    // of the code are highlighted, but might not be *selected*. For example
+    // when you search in the file it will *highlight* all occurrances, but
+    // will only *select* one at a time.
+
+    // This is the background of the selection you make with your cursor
+    // It might get overridden later depending on if the selection is a
+    // wordHighlight or wordHighlightStrong
+    selectionBackground: { value: "{color.selection.active}" },
+    // When you select text, this is the background for *other* text that
+    // matches that selection
+    selectionHighlightBackground: { value: "{color.selection.other}" },
+    // When the selected text is not in the currently active window or pane
+    // This also happens in the sidebar for the currently open file when
+    // the cursor is not in the file tree
+    inactiveSelectionBackground: { value: "{color.selection.inactive}" },
+
+    // Word highlights are when you either set your cursor within a word,
+    // or select only that word
+    wordHighlightBackground: { value: "{color.selection.word}" },
+    // If you highlight a word and it is special, like if it has a tip
+    wordHighlightStrongBackground: { value: "{color.selection.other}" },
+
+    // The current selected occurance of searched text
+    findMatchBackground: { value: "{color.search.selected}" },
+    // All occurances of found text that are not the current selected one
+    // this also applies to matches in the sidebar
+    // like searching in the file explorer
+    findMatchHighlightBackground: { value: "{color.search.result}" },
+
+    // When you "find in selection" this is the background for the selection
+    findRangeHighlightBackground: {},
+
+    // Highlight below the word for which a hover is shown.
+    // Hover background only happens on non-selected and non-highlighted text
+    hoverHighlightBackground: { value: "{color.hover.primary}" },
+
+    // Background of the line(s) the cursor is currently on
+    lineHighlightBackground: { value: "{color.highlight.bg}" },
+    lineHighlightBorder: { value: "{color.highlight.border}" },
+
+    // When you do a search in the file and it highlights the line
+    // of the match you are on
+    rangeHighlightBackground: { value: "{color.core.gray.2}" },
+
+    // These are used in debugging
+    focusedStackFrameHighlightBackground: {},
+    stackFrameHighlightBackground: {},
+
+    // When you insert a snippet that has parts you need to edit,
+    // those are tabstops. Similar to selecting a part of text.
+    // NOTE: because the tabstop is selected, editor.selectionBackground is also
+    // applied
+    snippetTabstopHighlightBackground: {},
+    snippetTabstopHighlightBorder: {},
+    snippetFinalTabstopHighlightBackground: {},
+    snippetFinalTabstopHighlightBorder: {},
+  },
+
+  editorLineNumber: {
+    foreground: { value: "{color.core.gray.6}" },
+    activeForeground: { value: "{color.core.black}" },
+  },
+
+  editorCursor: {
+    foreground: { value: "{color.core.magenta.8}" },
+  },
+
+  editorLink: {
+    activeForeground: "{color.core.black}",
+  },
+
+  // Next to the line numbers
+  editorGutter: {
+    background: { value: "{color.gutter.main}" },
+    modifiedBackground: { value: "{color.modified}" },
+    addedBackground: { value: "{color.added}" },
+    deletedBackground: { value: "{color.removed}" },
+  },
+
+  // Rainbow brakets.
+  editorBracketHighlight: {
+    foreground1: { value: "{color.core.red.6}" },
+    foreground2: { value: "{color.core.orange.6}" },
+    foreground3: { value: "{color.core.yellow.6}" },
+    foreground4: { value: "{color.core.green.6}" },
+    foreground5: { value: "{color.core.blue.6}" },
+    foreground6: { value: "{color.core.purple.6}" },
+  },
+}

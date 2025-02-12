@@ -1,0 +1,73 @@
+// These are names of functions, data structures, classes, etc., but not of
+// variables which reference them. For example, `var foo = someFunction();`,
+// `someFunction()` would be an entity. Entity also includes some HTML syntax
+// like tags and tag attributes.
+//
+// Functions are blue.
+//
+// Classes are cyan.
+//
+// Interfaces are purple.
+//
+// Enums are orange.
+{
+  syntax: {
+    // The entity scopes are generally assigned to the names of data structures,
+    // types and other uniquely-identifiable constructs in code and markup. The
+    // notable exceptions are entity.name.tag and entity.other.attribute-name,
+    // which are used in HTML and XML tags.
+    entity: {
+      name: {
+        // Classes are cyan.
+        class: { value: "{color.core.cyan.8}" },
+        struct: { value: "{color.core.cyan.8}" },
+        impl: { value: "{color.core.cyan.8}" },
+        union: { value: "{color.core.cyan.8}" },
+        // Interfaces are purple.
+        trait: { value: "{color.core.purple.8}" },
+        interface: { value: "{color.core.purple.8}" },
+        // Enums are orange.
+        enum: { value: "{color.core.orange.8}" },
+        tag: {
+          "*": { value: "{color.core.cyan.8}" },
+          reference: { value: "{color.core.cyan.8}" },
+          yaml: { value: "{color.core.cyan.8}" },
+        },
+        type: {
+          module: { value: "{color.core.orange.6}" },
+        },
+        // Functions are blue.
+        function: {
+          "*": { value: "{color.core.blue.8}" },
+          constructor: { value: "{color.core.blue.4}" },
+          destructor: { value: "{color.core.blue.4}" },
+        },
+      },
+      other: {
+        "attribute-name": {
+          id: { value: "{color.core.red.8}" },
+          class: { value: "{color.core.red.8}" },
+          "*": { value: "{color.core.red.8}" },
+        },
+      },
+    },
+  },
+  semantic: {
+    class: {
+      "*": { value: "{color.core.cyan.8}", },
+    },
+    enum: {
+      "*": { value: "{color.core.orange.8}", },
+    },
+    function: {
+      "*": { value: "{color.core.blue.8}", },
+    },
+    interface: {
+      "*": { value: "{color.core.purple.8}", },
+    },
+    method: {
+      "*": { value: "{color.core.blue.4}", },
+      "static": { value: "{color.core.purple.4}", },
+    },
+  },
+}

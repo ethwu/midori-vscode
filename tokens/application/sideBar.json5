@@ -1,0 +1,19 @@
+{
+  sideBar: {
+    background: { value: "{color.background.primary}" },
+    foreground: { value: "{color.foreground.primary}" },
+    border: {},
+    dropBackground: { value: "{color.background.primary}" },
+  },
+
+  sideBarSectionHeader: {
+    background: { value: "{color.background.secondary}" },
+    foreground: { value: "{color.foreground.secondary}" },
+    border: { value: "{color.gutter.border}" },
+  },
+
+  // Text at the top of the sidebar
+  sideBarTitle: {
+    foreground: { value: "{color.foreground.primary}" },
+  },
+}

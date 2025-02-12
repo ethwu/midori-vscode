@@ -1,70 +1,95 @@
 {
   color: {
-    core: {
-      black: "{palette.flexoki.base.black}",
-      white: "{palette.flexoki.base.paper}",
+    // Color for mysterious unknown tokens.
+    unknown: "{color.core.purple.2}",
 
-      gray: {
-        "8": "{palette.flexoki.base.800}",
-        "6": "{palette.flexoki.base.600}",
-        "4": "{palette.flexoki.base.400}",
-        "2": "{palette.flexoki.base.200}",
-      },
+    foreground: {
+      primary: "{color.core.black}",
+      secondary: "{color.core.gray.9}",
+      "8": "{color.core.black}",
+      "6": "{color.core.gray.9}",
+      "4": "{color.core.gray.8}",
+      "2": "{color.core.gray.6}",
+    },
 
-      red: {
-        "8": "{palette.flexoki.accent.red.800}",
-        "6": "{palette.flexoki.accent.red.600}",
-        "4": "{palette.flexoki.accent.red.400}",
-        "2": "{palette.flexoki.accent.red.200}",
-      },
+    background: {
+      primary: "{color.core.white}",
+      secondary: "{color.core.gray.1}",
+      "8": "{color.core.white}",
+      "6": "{color.core.gray.1}",
+      "4": "{color.core.gray.2}",
+      "2": "{color.core.gray.4}",
+    },
 
-      orange: {
-        "8": "{palette.flexoki.accent.orange.800}",
-        "6": "{palette.flexoki.accent.orange.600}",
-        "4": "{palette.flexoki.accent.orange.400}",
-        "2": "{palette.flexoki.accent.orange.200}",
-      },
+    // The chosen accent color.
+    accent: {
+      "8": "{color.core.magenta.8}",
+      "6": "{color.core.magenta.6}",
+      "4": "{color.core.magenta.4}",
+      "2": "{color.core.magenta.2}",
+    },
 
-      yellow: {
-        "8": "{palette.flexoki.accent.orange.800}",
-        "6": "{palette.flexoki.accent.orange.600}",
-        "4": "{palette.flexoki.accent.orange.400}",
-        "2": "{palette.flexoki.accent.orange.200}",
-      },
+    // Line highlight.
+    highlight: {
+      bg: "{color.core.gray.1}80",
+      border: "{color.core.gray.1}",
+    },
+    // Color for the cursor.
+    cursor: "{color.accent.6}",
+    selection: {
+      active: "{color.accent.2}80",
+      // The highlight when the window is not active.
+      inactive: "{color.background.4}80",
+      // The highlight for selecting one word.
+      word: "{color.selection.active}",
+      // Other text matching your selection, but aren't exactly the same
+      // word.
+      other: "{color.core.cyan.2}80",
+    },
+    // Hovering a word in the editor.
+    hover: {
+      primary: "{color.core.gray.1}",
+    },
+    // Search results.
+    search: {
+      selected: "{color.core.yellow.4}",
+      result: "{color.core.yellow.2}",
+    },
+    // The gutter containing the line numbers.
+    gutter: {
+      main: "{color.core.gray.1}",
+      border: "{color.core.gray.2}",
+    },
 
-      green: {
-        "8": "{palette.flexoki.accent.green.800}",
-        "6": "{palette.flexoki.accent.green.600}",
-        "4": "{palette.flexoki.accent.green.400}",
-        "2": "{palette.flexoki.accent.green.200}",
-      },
+    added: "{color.core.green.6}",
+    modified: "{color.core.yellow.6}",
+    removed: "{color.core.red.6}",
+    untracked: "{color.core.cyan.6}",
+    ignored: "{color.core.gray.6}",
+    conflicting: "{color.core.orange.6}",
 
-      cyan: {
-        "8": "{palette.flexoki.accent.cyan.800}",
-        "6": "{palette.flexoki.accent.cyan.600}",
-        "4": "{palette.flexoki.accent.cyan.400}",
-        "2": "{palette.flexoki.accent.cyan.200}",
-      },
+    info: "{color.core.blue.6}",
+    warning: "{color.core.yellow.6}",
+    error: "{color.core.red.6}",
 
-      blue: {
-        "8": "{palette.flexoki.accent.blue.800}",
-        "6": "{palette.flexoki.accent.blue.600}",
-        "4": "{palette.flexoki.accent.blue.400}",
-        "2": "{palette.flexoki.accent.blue.200}",
-      },
-
-      purple: {
-        "8": "{palette.flexoki.accent.purple.800}",
-        "6": "{palette.flexoki.accent.purple.600}",
-        "4": "{palette.flexoki.accent.purple.400}",
-        "2": "{palette.flexoki.accent.purple.200}",
-      },
-
-      magenta: {
-        "8": "{palette.flexoki.accent.magenta.800}",
-        "6": "{palette.flexoki.accent.magenta.600}",
-        "4": "{palette.flexoki.accent.magenta.400}",
-        "2": "{palette.flexoki.accent.magenta.200}",
+    ansi: {
+      black: "{color.core.black}",
+      red: "{color.core.red.6}",
+      green: "{color.core.green.6}",
+      yellow: "{color.core.yellow.6}",
+      blue: "{color.core.blue.6}",
+      magenta: "{color.core.magenta.6}",
+      cyan: "{color.core.cyan.6}",
+      white: "{color.core.gray.2}",
+      bright: {
+        black: "{color.core.gray.8}",
+        red: "{color.core.red.4}",
+        green: "{color.core.green.4}",
+        yellow: "{color.core.yellow.4}",
+        blue: "{color.core.blue.4}",
+        magenta: "{color.core.magenta.4}",
+        cyan: "{color.core.cyan.4}",
+        white: "{color.core.gray.4}",
       },
     },
   },

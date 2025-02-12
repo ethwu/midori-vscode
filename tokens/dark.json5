@@ -1,0 +1,76 @@
+{
+  color: {
+    core: {
+      black: "{palette.flexoki.base.200}",
+      white: "{palette.flexoki.base.black}",
+
+      gray: {
+        "05": "{palette.flexoki.base.950}",
+        "1": "{palette.flexoki.base.900}",
+        "2": "{palette.flexoki.base.800}",
+        "4": "{palette.flexoki.base.600}",
+        "6": "{palette.flexoki.base.400}",
+        "8": "{palette.flexoki.base.200}",
+        "9": "{palette.flexoki.base.100}",
+      },
+
+      red: {
+        "8": "{palette.flexoki.accent.red.700}",
+        "6": "{palette.flexoki.accent.red.600}",
+        "4": "{palette.flexoki.accent.red.400}",
+        "2": "{palette.flexoki.accent.red.200}",
+      },
+
+      orange: {
+        "8": "{palette.flexoki.accent.orange.700}",
+        "6": "{palette.flexoki.accent.orange.600}",
+        "4": "{palette.flexoki.accent.orange.400}",
+        "2": "{palette.flexoki.accent.orange.200}",
+      },
+
+      yellow: {
+        "8": "{palette.flexoki.accent.yellow.700}",
+        "6": "{palette.flexoki.accent.yellow.600}",
+        "4": "{palette.flexoki.accent.yellow.400}",
+        "2": "{palette.flexoki.accent.yellow.200}",
+        "1": "{palette.flexoki.accent.yellow.100}",
+      },
+
+      green: {
+        "8": "{palette.flexoki.accent.green.700}",
+        "6": "{palette.flexoki.accent.green.600}",
+        "4": "{palette.flexoki.accent.green.400}",
+        "2": "{palette.flexoki.accent.green.200}",
+      },
+
+      cyan: {
+        "8": "{palette.flexoki.accent.cyan.700}",
+        "6": "{palette.flexoki.accent.cyan.600}",
+        "4": "{palette.flexoki.accent.cyan.400}",
+        "2": "{palette.flexoki.accent.cyan.200}",
+      },
+
+      blue: {
+        "8": "{palette.flexoki.accent.blue.700}",
+        "6": "{palette.flexoki.accent.blue.600}",
+        "4": "{palette.flexoki.accent.blue.400}",
+        "2": "{palette.flexoki.accent.blue.200}",
+      },
+
+      purple: {
+        "8": "{palette.flexoki.accent.purple.700}",
+        "6": "{palette.flexoki.accent.purple.600}",
+        "4": "{palette.flexoki.accent.purple.400}",
+        "2": "{palette.flexoki.accent.purple.200}",
+      },
+
+      magenta: {
+        "8": "{palette.flexoki.accent.magenta.700}",
+        "6": "{palette.flexoki.accent.magenta.600}",
+        "4": "{palette.flexoki.accent.magenta.400}",
+        "2": "{palette.flexoki.accent.magenta.200}",
+        "1": "{palette.flexoki.accent.magenta.50}",
+      },
+    },
+  },
+}

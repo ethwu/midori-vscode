@@ -1,0 +1,48 @@
+// Constants are things like booleans, nulls, numbers.
+{
+  syntax: {
+    constant: {
+      "*": { value: "{color.core.orange.6}" },
+      character: {
+        // escape characters like /
+        escape: { value: "{color.core.magenta.6}" },
+      },
+
+      // Constants built into the the language like booleans
+      language: {
+        "*": { value: "{color.core.black}", fontStyle: "bold" },
+        // Dart does not seem to have great syntax grammar definitions
+        dart: {},
+        boolean: {
+          false: { value: "{color.core.red.8}", fontStyle: "bold" },
+          true: { value: "{color.core.green.8}", fontStyle: "bold" },
+        },
+        // * import in JS
+        "import-export-all": {
+          fontStyle: "bold",
+        },
+        null: { value: "{color.core.purple.8}" },
+        symbol: { value: "{color.core.magenta.8}" },
+      },
+      other: {
+        placeholder: {},
+      },
+      numeric: {
+        "*": { value: "{color.core.magenta.6}" },
+        // These have more specific scopes like integer.binary and integer.decimal
+        integer: {},
+        complex: {},
+        float: {},
+      },
+    },
+  },
+  semantic: {
+    builtinConstant: {
+      value: "{color.core.orange.8}",
+      fontStyle: "bold",
+    },
+    variable: {
+      readonly: { value: "{color.core.orange.6}" },
+    },
+  },
+}

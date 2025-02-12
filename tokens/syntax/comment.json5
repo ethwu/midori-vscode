@@ -1,0 +1,19 @@
+{
+  syntax: {
+    comment: {
+      "*": {
+        value: "{color.core.gray.4}",
+        fontStyle: "italic",
+      },
+      line: {
+        documentation: { value: "{color.core.gray.6}", fontStyle: "" },
+      },
+      block: {
+        javadoc: { value: "{color.core.gray.6}", fontStyle: "" },
+        documentation: { value: "{color.core.gray.6}", fontStyle: "" },
+      },
+    },
+    "string.quoted.docstring": { value: "{color.core.gray.6}", fontStyle: "" },
+  },
+  "punctuation.definition.comment": { value: "{color.core.gray.6}", fontStyle: "" },
+}

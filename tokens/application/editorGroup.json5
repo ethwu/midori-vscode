@@ -1,0 +1,13 @@
+{
+  // Editor Groups are the containers of editors.
+  editorGroup: {
+    emptyBackground: { value: "{color.background.secondary}" },
+    border: { value: "{color.gutter.border}" },
+    dropBackground: { value: "{color.background.secondary}" },
+  },
+  editorGroupHeader: {
+    noTabsBackground: { value: "{color.background.primary}" },
+    tabsBackground: { value: "{color.background.secondary}" },
+    tabsBorder: { value: "#0000" },
+  },
+}
