@@ -60,6 +60,36 @@
       main: "{color.core.gray.1}",
       border: "{color.core.gray.2}",
     },
+    // The tabs.
+    tab: {
+      border: "{color.core.gray.2}",
+      active: {
+        background: "{color.background.8}",
+        foreground: "{color.foreground.8}",
+      },
+      inactive: {
+        background: "{color.background.6}",
+        foreground: "{color.foreground.6}",
+      },
+      unfocused: {
+        background: "{color.background.4}",
+        foreground: "{color.foreground.4}",
+        border: "{color.core.gray.2}",
+      },
+    },
+    // The status bar.
+    status: {
+      debug: "{color.core.orange.6}",
+      noFolder: "{color.core.red.6}",
+    },
+    // Input fields.
+    input: {
+      border: "{color.core.gray.2}",
+      background: "{color.background.6}",
+      foreground: "{color.foreground.8}",
+      // The placeholder text.
+      placeholder: "{color.foreground.4}",
+    },
 
     added: "{color.core.green.6}",
     modified: "{color.core.yellow.6}",

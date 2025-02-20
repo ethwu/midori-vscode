@@ -85,11 +85,11 @@
 
   // Rainbow brakets.
   editorBracketHighlight: {
-    foreground1: { value: "{color.core.red.6}" },
-    foreground2: { value: "{color.core.orange.6}" },
-    foreground3: { value: "{color.core.yellow.6}" },
-    foreground4: { value: "{color.core.green.6}" },
-    foreground5: { value: "{color.core.blue.6}" },
-    foreground6: { value: "{color.core.purple.6}" },
+    foreground6: { value: "{color.core.red.6}" },
+    foreground5: { value: "{color.core.orange.6}" },
+    foreground4: { value: "{color.core.yellow.6}" },
+    foreground3: { value: "{color.core.green.6}" },
+    foreground2: { value: "{color.core.blue.6}" },
+    foreground1: { value: "{color.core.purple.6}" },
   },
 }

@@ -1,0 +1,11 @@
+// The titlebar is the top bar, but these styles only apply when
+// it is not in fullscreen mode
+{
+  "titleBar": {
+    "border": { "value": "#0000" },
+    "activeBackground": { "value": "{color.background.4}" },
+    "activeForeground": { "value": "{color.foreground.8}" },
+    "inactiveBackground": { "value": "{color.background.6}" },
+    "inactiveForeground": { "value": "{color.foreground.6}" }
+  }
+}

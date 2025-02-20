@@ -1,0 +1,31 @@
+{
+  "input": {
+    "background": { "value": "{color.input.background}" },
+    "border": { "value": "{color.input.border}" },
+    "foreground": { "value": "{color.input.foreground}" },
+    "placeholderForeground": { "value": "{color.input.placeholder}" }
+  },
+  
+  "inputValidation": {
+    "errorBackground": { "value": "{color.error}" },
+    "errorForeground": { "value": "{color.background.8}" },
+    "errorBorder": { "value": "{color.error}" },
+    
+    // You can trigger this by setting git.inputValidation to "always"
+    "infoBackground": { "value": "{color.info}" },
+    "infoForeground": { "value": "{color.background.8}" },
+    "infoBorder": { "value": "{color.info}" },
+    
+    // you can trigger this by writing a commit message in the source control panel
+    // over 50 characters long
+    "warningBackground": { "value": "{color.warning}" },
+    "warningForeground": { "value": "{color.background.8}" },
+    "warningBorder": { "value": "{color.warning}" }
+  },
+  
+  // For example the buttons inside the search and search in file inputs
+  "inputOption": {
+    "activeBorder": { "value": "#0000" },
+    "activeBackground": { "value": "{color.background.4}" }
+  }
+}

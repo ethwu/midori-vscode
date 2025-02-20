@@ -1,0 +1,30 @@
+// The status bar is the bar at the bottom buttons and context information 
+{
+  "statusBar": {
+    "background": { "value": "{color.background.6}" },
+    "foreground": { "value": "{color.foreground.8}" },
+    "border": { "value": "#0000" },
+    
+    "debuggingBackground": { "value": "{color.status.debug}" },
+    "debuggingForeground": { "value": "{color.foreground.8}" },
+    "debuggingBorder": { "value": "#0000" },
+    
+    "noFolderBackground": { "value": "{color.status.noFolder}" },
+    "noFolderForeground": { "value": "{color.background.8}" },
+    "noFolderBorder": { "value": "#0000" }
+  },
+  
+  "statusBarItem": {
+    "activeBackground": { "value": "{color.background.8}" },
+    "hoverBackground": { "value": "{color.background.4}" },
+    
+    "prominentBackground": { "value": "{color.accent.4}" },
+    "prominentForeground": { "value": "{color.background.8}" },
+    "prominentHoverBackground": { },
+    
+    "remoteBackground": { "value": "{color.accent.8}" },
+    "remoteForeground": { "value": "{color.background.8}" },
+    "remoteHoverForeground": { "value": "{color.foreground.8}" },
+    "remoteHoverBackground": { "value": "{color.accent.2}" },
+  }
+}
